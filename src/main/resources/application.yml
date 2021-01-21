@@ -1,0 +1,11 @@
+spring:
+  resources:
+    static-locations: classpath:/static/,file:/home/kugs/IdeaProjects/github/vitool/data/
+video:
+  #mp4视频文件
+  source: /home/kugs/IdeaProjects/github/vitool/data/test.mp4
+  #  转换输出路径：必须是xxx/xx.m3u8，否则可能会报错
+  target: /home/kugs/IdeaProjects/github/vitool/data/test.m3u8
+
+# ffmpeg命令：不配置或ffmpeg，必须保证ffmpeg已经加了环境变量，否则需要指定ffmpeg路径：/usr/local/bin/ffmpeg
+ffmpeg: ffmpeg
