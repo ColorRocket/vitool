@@ -6,7 +6,7 @@ import sun.misc.BASE64Encoder;
 import java.io.*;
 /**
  * 文件转base64及
- * 
+ *
  *
  * @author heh
  * @version 1.0
