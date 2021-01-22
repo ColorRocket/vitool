@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 视频切片处理
+ *
  * @author heh
  * @version 1.0
  * @date 2021/1/21
